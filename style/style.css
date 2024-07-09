@@ -210,3 +210,47 @@ main section{
 .next-target-content{
     text-align: left;
 }
+
+/* support section style  */
+.support{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px 48px;
+}
+.support h2{
+    color: white;
+}
+.support p{
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    padding: 0px 200px;
+}
+.support .feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.support .input{
+    background-color: white;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    padding: 20px 215px 20px 20px;
+    border: none;
+}
+.support button{
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 20px;
+    border: none;
+}
