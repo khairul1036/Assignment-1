@@ -40,7 +40,7 @@
     opacity: 0.7;
     margin-top: 24px;
     margin-bottom: 48px;
-    padding: 0px 48px;
+    padding: 0px 70px;
 }
 
 /* nav bar style  */
@@ -86,7 +86,7 @@ main section{
     margin: 90px 0px;
 }
 
-/* web-development section  */
+/* web-development section style */
 .web-development{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -144,4 +144,19 @@ main section{
     text-align: center;
     padding: 12px 20px;
     opacity: 0.7;
+}
+
+/* inspiration section style  */
+.inspiration{
+    text-align: center;
+}
+.video{
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+}
+.inspiration iframe{
+    width: 1150px;
+    height: 614px;
+    border-radius: 16px;
 }
