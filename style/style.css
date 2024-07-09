@@ -20,6 +20,7 @@
     background-color: transparent;
     padding: 17px 24px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .btn-secondary{
     font-family: "Azeret Mono", monospace;
@@ -29,6 +30,7 @@
     font-size: 20px;
     padding: 21px 24px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .section-title{
     font-weight: 800;
@@ -144,6 +146,7 @@ main section{
     text-align: center;
     padding: 12px 20px;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 /* inspiration section style  */
@@ -253,6 +256,7 @@ main section{
     font-size: 20px;
     padding: 17px 20px;
     border: none;
+    cursor: pointer;
 }
 
 /* footer section style  */
