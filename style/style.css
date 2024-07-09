@@ -160,3 +160,38 @@ main section{
     height: 614px;
     border-radius: 16px;
 }
+
+/* target section style  */
+.target{
+    text-align: center;
+}
+.target-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 50px;
+}
+.target-items .item-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.target-items .item-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.target-items .item-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.target-items img{
+    margin-bottom: 24px;
+}
+.target-items a{
+    text-decoration: underline;
+    color: #0D1321;
+    font-weight: bold;
+    font-size: 16px;
+}
